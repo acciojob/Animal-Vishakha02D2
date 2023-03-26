@@ -1,10 +1,22 @@
 /*  your css code here. If applicable */
-img{
-	width:32%;
-	border-radius:20px;
-
-}
 body{
-	background-color:#444;
-	padding:20px;
+	background-color:rgb(68,68,68);
+/* 	background-color:rgb(27,27,27) */
+}
+#photo-heading{
+	text-align:center;
+}
+#animal-photos{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-row:1fr 1fr 1fr;
+	align-items:center;
+	justify-items:center;
+	grid-column-gap:20px;
+	grid-row-gap:20px;
+}
+img{
+	border-radius:10px;
+	width:auto;
+	height:auto;
 }
